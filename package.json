@@ -1,0 +1,26 @@
+{
+  "name": "nodemcu-server",
+  "version": "1.0.0",
+  "description": "Server Nodemcu Log",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/norrisrahman/nodemcu-server.git"
+  },
+  "author": "Norris Rahman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/norrisrahman/nodemcu-server/issues"
+  },
+  "homepage": "https://github.com/norrisrahman/nodemcu-server#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.3",
+    "nodemon": "^2.0.12"
+  }
+}
